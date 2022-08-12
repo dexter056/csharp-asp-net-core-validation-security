@@ -119,7 +119,8 @@ namespace ConferenceTrackerTests
         [Fact(DisplayName = "Add Validation to Create View @add-validation-to-create-view")]
         public void AddValidationToCreateView()
         {
-            var filePath = ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + "ConferenceTracker" + Path.DirectorySeparatorChar + "Views" + Path.DirectorySeparatorChar + "Speakers" + Path.DirectorySeparatorChar + "Create.cshtml";
+            var filePath =
+                $"..{Path.DirectorySeparatorChar}..{Path.DirectorySeparatorChar}..{Path.DirectorySeparatorChar}..{Path.DirectorySeparatorChar}ConferenceTracker{Path.DirectorySeparatorChar}Views{Path.DirectorySeparatorChar}Speakers{Path.DirectorySeparatorChar}Create.cshtml";
             Assert.True(File.Exists(filePath), @"`ConferenceTracker\Views\Speakers\Create.cshtml` file does not exist. Did you move, delete, or rename it.");
 
             string file;
@@ -135,7 +136,8 @@ namespace ConferenceTrackerTests
         [Fact(DisplayName = "Add Validation Summary to Create View @add-validation-summary-to-create-view")]
         public void AddValidationSummaryToCreateView()
         {
-            var filePath = ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + "ConferenceTracker" + Path.DirectorySeparatorChar + "Views" + Path.DirectorySeparatorChar + "Speakers" + Path.DirectorySeparatorChar + "Create.cshtml";
+            var filePath =
+                $"..{Path.DirectorySeparatorChar}..{Path.DirectorySeparatorChar}..{Path.DirectorySeparatorChar}..{Path.DirectorySeparatorChar}ConferenceTracker{Path.DirectorySeparatorChar}Views{Path.DirectorySeparatorChar}Speakers{Path.DirectorySeparatorChar}Create.cshtml";
             Assert.True(File.Exists(filePath), @"`ConferenceTracker\Views\Speakers\Create.cshtml` file does not exist. Did you move, delete, or rename it.");
 
             string file;
